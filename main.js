@@ -1,7 +1,8 @@
-let h1 = document.querySelector('h1');
-h1.addEventListener('click', ()=> {
+let btn = document.querySelector('.btn');
+btn.addEventListener('click', ()=> {
     let div = document.createElement('div');
     div.innerHTML = "well done";
-    div.className = 'styled'
+    div.className = 'btn'
     document.body.appendChild(div)
 })
+console.log(btn)
