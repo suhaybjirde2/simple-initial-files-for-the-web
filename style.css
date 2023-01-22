@@ -1,11 +1,19 @@
 body {
     background-color: #333;
-    color: #fff;
     text-align: center;
 }
-.styled {
+h1 {
+    color: #fff;
+}
+.btn {
     padding: 10px 25px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     margin-inline: auto;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.btn:nth-child(odd) {
+    background-color: lightpink;
 }
